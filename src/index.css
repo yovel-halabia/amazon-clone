@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+:root{
+  --logos : url('https://images-na.ssl-images-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-hm-dsk-reorg._CB405937547_.png');
+  --countries: url('https://m.media-amazon.com/images/S/sash/rzrQQdi0aRm6Dap.png');
+  --homepage-background: url('https://m.media-amazon.com/images/I/711Y9Al9RNL._SX3740_.jpg');
+  --amazon-black-log: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png');
+}
+body {
+  margin: 0;
+  background-color: rgb(234,237,237);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button{
+  outline: none;
+  border:0;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.app__button {  
+  border:0;
+  border: 1px solid;
+  border-color:rgba(255, 255, 255, 0);
+}
+
+.app__button:hover{
+ border-color:#ffff;
+ border-radius: 2px;
+}
+
+.app__button-disable{
+  background-color:#e1be68 !important;
+  cursor:default !important;
+}
+
+.app__content{
+  max-width: 1540px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  height: auto;
+}

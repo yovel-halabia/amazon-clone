@@ -1,0 +1,19 @@
+.orders{
+    width:50%;
+    margin: 0 auto;
+}
+
+.orders__title{
+    margin-bottom:15px;
+}
+
+.orders svg{
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .orders{
+        width:90%;
+    }
+}

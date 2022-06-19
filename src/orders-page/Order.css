@@ -1,0 +1,22 @@
+.order{
+    padding:15px;
+    margin-bottom:30px;
+    background:white;
+}
+
+.ordrer__OrderSubTotal{
+    display:block;
+    text-align:right;
+}
+.order__title{
+    font-size:20px;
+}
+
+.order__id{
+    float:right;
+}
+
+.order__date{
+    display:block;
+    margin-bottom: 5px;
+}

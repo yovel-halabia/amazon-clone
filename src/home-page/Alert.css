@@ -1,0 +1,25 @@
+.alert{
+    width: 100%;
+    text-align: center;
+    background: #f8d7da;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    font-size: 20px;
+    animation:alert-show 1s;
+}
+
+.alert__hide{
+    animation:alert-hide 1s;
+    bottom:-10%;
+}
+
+@keyframes alert-show {
+    from {bottom: -10%;}
+    to {bottom: 0;}
+}
+
+@keyframes alert-hide {
+    from {bottom: 0;}
+    to {bottom: -10%;}
+}
