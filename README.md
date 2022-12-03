@@ -1,7 +1,7 @@
 # Amazon-clone E-commerce
 > This is my first project of frontend and severless development
 
-> Live demo [_here_](https://noto-website.herokuapp.com/).
+> Live demo [_here_](https://amazon-clone-coral-mu.vercel.app/).
 
 ## Table of Contents
 * [General Info](#general-information)
