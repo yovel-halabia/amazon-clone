@@ -1,9 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import reducer,{initialState} from "./Reducer";
-import {StateProvider} from "./StateProvider";
-import { BrowserRouter } from "react-router-dom";
-import './index.css';
+import "./index.css";
+import {BrowserRouter} from "react-router-dom";
+import ReactDOM from "react-dom";
+
+import reducer, {initialState} from "./Context/Reducer";
+import {StateProvider} from "./Context/StateProvider";
+
 import App from './App';
 
 

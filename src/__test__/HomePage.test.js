@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import HomePage from '../home-page/HomePage'
-import {StateProvider} from "../StateProvider";
+import {StateProvider} from "../../Context/StateProvider";
 import reducer from "../Reducer";
 import {fireEvent, render, waitFor} from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";

@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header";
 import Payment from '../payment-page/Payment';
-import {StateProvider} from "../StateProvider";
+import {StateProvider} from "../../Context/StateProvider";
 import reducer from "../Reducer";
 import {render, fireEvent, waitFor,waitForElementToBeRemoved} from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";

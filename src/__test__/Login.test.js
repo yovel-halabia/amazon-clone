@@ -1,6 +1,6 @@
 import React from "react";
 import Login from "../login-page/Login";
-import {StateProvider} from "../StateProvider";
+import {StateProvider} from "../../Context/StateProvider";
 import reducer,{initialState} from "../Reducer";
 import {render,fireEvent ,waitFor,act} from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";

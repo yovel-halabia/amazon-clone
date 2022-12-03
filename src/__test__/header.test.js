@@ -1,5 +1,5 @@
 import React from "react";
-import {StateProvider} from "../StateProvider";
+import {StateProvider} from "../../Context/StateProvider";
 import reducer from "../Reducer";
 import {render} from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
