@@ -7,7 +7,7 @@ Live demo [_here_](https://amazon-clone-coral-mu.vercel.app/).
 - The goal of the project is to create experience in building a system that includes front-end and severless functionality.
 
 ## Technologies Used
-![Skills](https://skills.thijs.gg/icons?i=nodejs,react,firebase&perline=3)
+![Skills](https://skillicons.dev/icons?i=js,html,css,react,nodejs,firebase)
 
 ## Features
 - Authentication
